@@ -1,0 +1,23 @@
+<div class="tracker">
+    <h2>📚 Learning Tracker</h2>
+  
+    <label>
+      Select Date:
+      <input type="date" [formControl]="selectedDate" />
+    </label>
+  
+    <label>
+      What did you learn?
+      <input type="text" [formControl]="entryText" placeholder="e.g. Angular signals" />
+    </label>
+  
+    <button (click)="addEntry()">Add</button>
+  
+    <div class="entries" *ngIf="entriesByDate().length">
+      <h4>Entries for {{ selectedDate.value }}:</h4>
+      <ul>
+        <li *ngFor="let item of entriesByDate()">{{ item }}</li>
+      </ul>
+    </div>
+  </div>
+  

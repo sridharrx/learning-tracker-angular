@@ -1,6 +1,6 @@
 import { bootstrapApplication } from '@angular/platform-browser';
-import { appConfig } from './app/app.config';
-import { App } from './app/app';
+import { LearningTrackerComponent } from './app/learning-tracker/learning-tracker.component';
 
-bootstrapApplication(App, appConfig)
-  .catch((err) => console.error(err));
+bootstrapApplication(LearningTrackerComponent).catch((err) =>
+  console.error(err)
+);
