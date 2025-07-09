@@ -1,3 +1,10 @@
+## 🔗 Live Demo
+
+[Click here to view the live Learning Tracker app](https://sridharrx.github.io/learning-tracker-angular/)
+
+Built with Angular 18 standalone components, signals, reactive forms, and local storage.
+
+
 # 📘 Learning Tracker (Angular 18 + Signals)
 
 A minimal yet effective learning log app built with the latest Angular 18 features.
@@ -21,7 +28,7 @@ A minimal yet effective learning log app built with the latest Angular 18 featur
 ## 📸 Screenshot
 
 > _[Add a screenshot here once available]_  
-> Or use StackBlitz/GitHub Pages to demo.
+> [Click here to view the live Learning Tracker app](https://sridharrx.github.io/learning-tracker-angular/)
 
 ## 🚀 How to Run
 
